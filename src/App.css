@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: black;
+  color: rgb(223, 239, 3);
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  /* position: fixed; */
+}
+body{
+  background-color: beige;
+}
+.container{
+  background-color: rgb(229, 227, 164);
+  width: 70%;
+  min-height: 100vh;
+  margin: auto;
+  padding: 4vmax;
+  box-sizing: border-box;
+}
+.container>h1{
+  text-align: center;;
+}
+.container >form{
+  display: flex;
+  flex-direction: column;
+}
+input,textarea,button{
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.250);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(8, 8, 8);
+  color: white;
+}
+.container >form >button:hover{
+  background-color: rgb(66, 65, 65);
+}
+
+/* *{
+  border: 1px solid red;
+} */
+
+
+.task{
+ display: flex;
+ padding: 15px;
+ margin: 20px 0;
+ background-color: beige;
+ border-radius: 5px;
+ align-items: center;
+
+}
+.task span{
+  color: rgba(100, 96, 96, 0.584);
+  font-size: 30px;
+}
+.task p{
+ 
+  font-size: 30px;
+}
+.task >div{
+  width: 100%;
+
+}
+.task >button{
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  color: red;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.task >button:hover{
+  background-color: rgb(67, 62, 62);
+}
